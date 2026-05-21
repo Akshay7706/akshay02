@@ -1,0 +1,89 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+/* Define the custom dark variant for class-based toggling in Tailwind v4 */
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --color-primary: #990f26;
+  --color-primary-light: #b81430;
+  --color-primary-dark: #5c0614;
+  
+  --color-accent: #f43f5e;
+  --color-accent-hover: #e11d48;
+  --color-accent-light: #ffe4e6;
+  
+  --color-neutral-warm: #F9F8F6;
+  --color-neutral-card: #ffffff;
+  --color-neutral-dark: #1a1a1a;
+  
+  --font-sans: 'Inter', sans-serif;
+  --font-display: 'Poppins', sans-serif;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    font-family: 'Inter', sans-serif;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Poppins', sans-serif;
+  }
+
+  body {
+    @apply bg-neutral-warm text-neutral-dark antialiased overflow-x-hidden dark:bg-zinc-950 dark:text-zinc-100 transition-colors duration-300;
+  }
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-neutral-warm dark:bg-zinc-950;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-primary/30 rounded-full border-2 border-solid border-neutral-warm hover:bg-primary/50 transition-colors duration-200 dark:bg-zinc-800 dark:border-zinc-950 dark:hover:bg-zinc-700;
+}
+
+/* Smooth active state navigation indicator */
+.nav-link-active {
+  @apply text-accent after:w-full;
+}
+
+/* Custom glassmorphism utilities */
+.glass-panel {
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+.dark .glass-panel {
+  background: rgba(15, 15, 20, 0.75);
+  border: 1px solid rgba(63, 63, 70, 0.35);
+}
+
+.glass-panel-dark {
+  background: rgba(15, 44, 22, 0.85);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Animation utilities */
+@keyframes pulse-slow {
+  0%, 100% {
+    transform: scale(1);
+    opacity: 0.15;
+  }
+  50% {
+    transform: scale(1.05);
+    opacity: 0.25;
+  }
+}
+
+.animate-pulse-slow {
+  animation: pulse-slow 8s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}

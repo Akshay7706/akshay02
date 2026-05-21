@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "name": "Sarah Connor",
+    "role": "Nutritionist & Parent",
+    "quote": "The sweet strawberries and fresh kiwi are a hit in our household! I love knowing that what my family eats is 100% pesticide-free, organic, and harvested sustainably.",
+    "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=150&auto=format&fit=crop"
+  },
+  {
+    "id": 2,
+    "name": "Nathan Green",
+    "role": "Organic Food Blogger",
+    "quote": "abcde offers the absolute freshest citrus fruits in town. Their packaging is entirely biodegradable, and the home delivery is incredibly fast and contactless.",
+    "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=150&auto=format&fit=crop"
+  },
+  {
+    "id": 3,
+    "name": "David Miller",
+    "role": "Fitness Coach",
+    "quote": "Outstanding fruit quality. Their red grapes and fresh avocados are staple ingredients in my daily nutrition plans. Highly recommend the monthly organic baskets!",
+    "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=150&auto=format&fit=crop"
+  }
+]

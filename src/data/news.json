@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "title": "Why Organic Citrus is Your Best Immunity Booster",
+    "author": "Dr. Sarah Miller",
+    "date": "May 18, 2026",
+    "excerpt": "Discover how eating freshly harvested citrus fruits within days of picking retains up to 80% more vitamin C than store-bought options that sit in transit.",
+    "image": "https://images.unsplash.com/photo-1579618218290-0d1dc903e1e6?q=80&w=600&auto=format&fit=crop"
+  },
+  {
+    "id": 2,
+    "title": "5 Farming Methods We Use to Maintain Soil Health",
+    "author": "Farmer John",
+    "date": "May 14, 2026",
+    "excerpt": "Learn about crop rotation, organic mulching, and natural composting techniques that keep our soil rich and our seasonal fruit yields delicious.",
+    "image": "https://images.unsplash.com/photo-1518635017498-87f514b751ba?q=80&w=600&auto=format&fit=crop"
+  },
+  {
+    "id": 3,
+    "title": "A Guide to Packing the Perfect Organic Picnic Basket",
+    "author": "Emma Watson",
+    "date": "May 09, 2026",
+    "excerpt": "Which fruits stay freshest outdoors? We share our orchard tips for packing avocados, grapes, and berries for the ultimate healthy spring picnic.",
+    "image": "https://images.unsplash.com/photo-1560806887-1e4cd0b6cbd6?q=80&w=600&auto=format&fit=crop"
+  }
+]

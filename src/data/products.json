@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "name": "Fresh Lemon",
+    "category": "Citrus",
+    "price": 3.99,
+    "image": "https://images.unsplash.com/photo-1590502593747-42a996133562?q=80&w=600&auto=format&fit=crop",
+    "discount": "15% OFF",
+    "unit": "kg"
+  },
+  {
+    "id": 2,
+    "name": "Sweet Strawberry",
+    "category": "Berries",
+    "price": 7.99,
+    "image": "https://images.unsplash.com/photo-1464965911861-746a04b4bca6?q=80&w=600&auto=format&fit=crop",
+    "discount": null,
+    "unit": "box"
+  },
+  {
+    "id": 3,
+    "name": "Organic Red Grapes",
+    "category": "Berries",
+    "price": 5.49,
+    "image": "https://images.unsplash.com/photo-1537640538966-79f369143f8f?q=80&w=600&auto=format&fit=crop",
+    "discount": "NEW",
+    "unit": "kg"
+  },
+  {
+    "id": 4,
+    "name": "Juicy Orange",
+    "category": "Citrus",
+    "price": 2.99,
+    "image": "https://images.unsplash.com/photo-1611080626919-7cf5a9dbab5b?q=80&w=600&auto=format&fit=crop",
+    "discount": "30% OFF",
+    "unit": "kg"
+  },
+  {
+    "id": 5,
+    "name": "Ripe Avocado",
+    "category": "Organic",
+    "price": 8.99,
+    "image": "https://images.unsplash.com/photo-1523049673857-eb18f1d7b578?q=80&w=600&auto=format&fit=crop",
+    "discount": null,
+    "unit": "kg"
+  },
+  {
+    "id": 6,
+    "name": "Fresh Kiwi Fruit",
+    "category": "Organic",
+    "price": 6.99,
+    "image": "https://images.unsplash.com/photo-1585059895524-72359e061381?q=80&w=600&auto=format&fit=crop",
+    "discount": "Bestseller",
+    "unit": "box"
+  }
+]
